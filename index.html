@@ -73,12 +73,17 @@
 						<img src="http://cdn.aixifan.com/ico/favicon.ico" style="width:15px;height:15px" />
 						<a style="cursor:pointer;">Acfun</a><br/>
 					</li>
+					<br/>
+					<li id="gotoYueyuwu">
+						<img src="yueyuwu.png" style="width:15px;height:15px" />
+						<a style="cursor:pointer;">粤语屋</a><br/>
+					</li>
 				</ul>
 				
 			</div>
 			 <div class="rightView">
 				<!--为内嵌窗口iframe指定name值-->
-				<iframe id="web" src="http://www.baidu.com/" name="test" width="100%" height="100%" frameborder="1" align="right" scrolling="yes" sandbox="allow-forms allow-scripts allow-same-origin allow-popups"></iframe>
+				<iframe id="web" src="http://www.iqiyi.com/" name="test" width="100%" height="100%" frameborder="1" align="right" scrolling="yes" sandbox="allow-forms allow-scripts allow-same-origin allow-popups"></iframe>
 			</div>
 		</div>
 		
@@ -100,6 +105,9 @@
 			})
 			$("#gotoAcfun").click(function(){
 				$("#web").attr("src","http://www.acfun.cn/")
+			})
+			$("#gotoYueyuwu").click(function(){
+				$("#web").attr("src","http://www.yueyuwu.com/")
 			})
 		</script>
 	</body>
